@@ -1,0 +1,6 @@
+*.log
+\#src
+src/*.log
+docs/src/*.log
+
+
