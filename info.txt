@@ -56,9 +56,16 @@ HEAD > commit
 index > Stage
 working tree > Diretório de trabalho
 
-reset:
+reset: git resete ()
 --hard: desfazer commit, desfaz o stage, altera o Diretório
 --mixed: desfaz o commit, desfaz o stage
 --soft: desfazer o commit  
 
-git restore --staged 
+git restore --staged () :remove index do stage
+
+
+git diff HEAD~1 
+git diff HEAD~1 HEAD~2
+
+
+
