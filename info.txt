@@ -30,8 +30,6 @@ Git
 
 Github
 
-[] Repositório Remoto
-
 Principal a ser lembrado:
 
 [] Diretório de trabalho (Pasta na sua máquina Local)
@@ -51,4 +49,15 @@ git config --list
 git status
 git log
 
+[] Repositório Remoto
+
+reset 
+HEAD > commit 
+index > Stage
+working tree > Diretório de trabalho
+
+reset:
+--hard: desfazer commit, desfaz o stage, altera o Diretório
+--mixed: desfaz o commit, desfaz o stage
+--soft: desfazer o commit  
 
