@@ -1,0 +1,52 @@
+Versionamento 
+
+Problema sobre o desenvolvimento individual
+
+[] Falta de capacidade de retornar as versões anteriores
+[] Versão não monitorada
+[] Longo período em busca de solução
+
+Problema relacionado a trabalhar com equipe
+
+[] Conflitos quando mais de um programador está trabalhando no mesmo arquivo
+[] 'Bloqueio' do arquivo enquanto outro programador trabalha
+[] Refação desnecessária
+
+Solução - Monitoramento das alterações dos arquivos
+
+-----------------------------
+
+Git
+
+[] Diferente porque tira uma 'foto' instantânea do status do arquivo
+[] Armazena uma referência do arquivo
+[] Se um arquivo não teve alterações não registra
+[] Fluxo de momentos do projeto
+[] Maioria das ações são locais (Não precisa estar online)
+[] Integridade, todas as ações são registrada.
+[] Armazena arquivos em String de 40 posições que usa hexadecial (0-9 a-f)
+[] Armazena dados
+[] Repositório Local
+
+Github
+
+[] Repositório Remoto
+
+Principal a ser lembrado:
+
+[] Diretório de trabalho (Pasta na sua máquina Local)
+[] Repositório Git
+[] .git : Banco de dados compactado com as alterações dos arquivos
+[] Staging: Área de preparação
+[] Compromisso: Commit
+
+Modificar o arquivo > Adiciona ao Staging > Comprometer o arquivo : Commit
+
+informações da sua identidade:
+config --global user.name "Vitor Santana"
+config --global user.email "victorssanttana@hotmail.com"
+config --global core.editor vscode
+
+git config --list
+
+
