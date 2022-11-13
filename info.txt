@@ -48,5 +48,7 @@ config --global user.email "victorssanttana@hotmail.com"
 config --global core.editor vscode
 
 git config --list
+git status
+git log
 
 
