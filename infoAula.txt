@@ -67,4 +67,6 @@ BRANCH
 
 para criar uma branch: git branch nomeDaBranch
 para mudar de branch: git checkout nomeDaBranch
+para apagar uma branch: git branch -D nomeDaBranch
+para apagar uma branch: git branch -d nomeDaBranch
 ps: não deixar pendências antes de mudar de uma branch pra outra
