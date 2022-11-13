@@ -61,3 +61,4 @@ reset:
 --mixed: desfaz o commit, desfaz o stage
 --soft: desfazer o commit  
 
+git restore --staged 
