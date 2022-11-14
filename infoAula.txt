@@ -73,3 +73,8 @@ ps: não deixar pendências antes de mudar de uma branch pra outra
 
 git log:
 git log -p -1
+
+
+Copiar alterações para novo diretório:
+git diff > nomeDaAlocação.pach nomeIndexDeDestino
+git apply nomeDaAlocação.pach
