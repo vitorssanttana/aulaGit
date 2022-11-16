@@ -66,6 +66,7 @@ git restore --staged
 BRANCH
 
 para criar uma branch: git branch nomeDaBranch
+para criar uma branch e já ir para ela: git checkout -b nomeDaBranch
 para mudar de branch: git checkout nomeDaBranch
 para apagar uma branch: git branch -D nomeDaBranch
 para apagar uma branch: git branch -d nomeDaBranch
@@ -80,5 +81,4 @@ git diff > nomeDaAlocação.pach nomeIndexDeDestino
 git apply nomeDaAlocação.pach
 
 para olhar todos os commits em uma linha só:
-
 git log --pretty=oneline
