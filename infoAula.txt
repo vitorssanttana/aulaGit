@@ -82,3 +82,5 @@ git apply nomeDaAlocação.pach
 
 para olhar todos os commits em uma linha só:
 git log --pretty=oneline
+
+teste
