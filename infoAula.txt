@@ -71,7 +71,7 @@ para mudar de branch: git checkout nomeDaBranch
 para apagar uma branch: git branch -D nomeDaBranch
 para apagar uma branch: git branch -d nomeDaBranch
 ps: não deixar pendências antes de mudar de uma branch pra outra
-
+renomear a branch: git branch -m novoNome
 git log:
 git log -p -1
 
@@ -83,4 +83,6 @@ git apply nomeDaAlocação.pach
 para olhar todos os commits em uma linha só:
 git log --pretty=oneline
 
-teste
+
+apagar brunch Remoto:
+git push origin --delete nomeDaBranch
