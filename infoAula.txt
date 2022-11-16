@@ -84,3 +84,5 @@ para olhar todos os commits em uma linha só:
 git log --pretty=oneline
 
 
+apagar brunch Remoto:
+git push origin --delete nomeDaBranch
