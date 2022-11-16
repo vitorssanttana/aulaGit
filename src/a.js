@@ -1,5 +1,11 @@
 // jogo par impar
-function jogoParImpar() {
+let mensagem
+function jogoParImpar(){
+n? mensagem - "jogar!" : null
 return "jogar!"
-    }
-    
+
+}
+
+
+
+
