@@ -78,3 +78,7 @@ git log -p -1
 Copiar alterações para novo diretório:
 git diff > nomeDaAlocação.pach nomeIndexDeDestino
 git apply nomeDaAlocação.pach
+
+para olhar todos os commits em uma linha só:
+
+git log --pretty=oneline
