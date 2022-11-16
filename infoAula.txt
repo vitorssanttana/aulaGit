@@ -88,7 +88,25 @@ apagar brunch Remoto:
 git push origin --delete nomeDaBranch
 
 
-GIT FLOW
+# GIT FLOW
+
+[] master(main): projeto
+        [] hotfix : correções imediatas, falhas críticas : temporária versão 1.0.0-1 Tag
+    [] dev (desenvolvimento)
+        [] feature (funcionanidades) : temporária
+            [] release (lançamento) : temporária versão 1.0.0 Tag
+
+
+_______________________
+master 1.0.0 | 1.0.1 | 1.0.2
+            hotfix 1.0.1-1 | hotfix 1.0.1-2 Tag
+    dev 
+
+release > feature (eliminadas)
+ 
+ só fica a tag, dev e master
+ 
+
 
 
 
