@@ -87,6 +87,13 @@ git log --pretty=oneline
 apagar brunch Remoto:
 git push origin --delete nomeDaBranch
 
+master 1.0.0 | 1.0.1 | 1.0.2
+            hotfix 1.0.1-1 | hotfix 1.0.1-2 Tag
+    dev 
+
+release > feature (eliminadas)
+ 
+ só fica a tag, dev e master
 
 # GIT FLOW
 
@@ -96,16 +103,14 @@ git push origin --delete nomeDaBranch
         [] feature (funcionanidades) : temporária
             [] release (lançamento) : temporária versão 1.0.0 Tag
 
+instalar git flow:
+
+sudo apt install git-flow
+
 
 _______________________
-master 1.0.0 | 1.0.1 | 1.0.2
-            hotfix 1.0.1-1 | hotfix 1.0.1-2 Tag
-    dev 
 
-release > feature (eliminadas)
- 
- só fica a tag, dev e master
- 
+
 
 
 
