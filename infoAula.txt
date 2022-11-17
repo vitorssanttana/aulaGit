@@ -104,8 +104,22 @@ release > feature (eliminadas)
             [] release (lançamento) : temporária versão 1.0.0 Tag
 
 instalar git flow:
-
 sudo apt install git-flow
+
+iniciar o flow:
+git flow init
+
+criar uma feature :
+git flow feature start nomeDaFeature
+
+finalizar uma feature e mesclar com develop:
+git flow feature finish nomeDaFeature
+
+iniciar uma release:
+git flow release start 1.0.0
+
+finalizar uma release:
+git flow release finish 1.0.0
 
 
 _______________________
