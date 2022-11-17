@@ -122,7 +122,6 @@ finalizar uma release:
 git flow release finish 1.0.0
 
 _______________________
-adicionando teste aqui
 
 
 
