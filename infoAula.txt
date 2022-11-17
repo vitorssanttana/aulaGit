@@ -112,6 +112,8 @@ git flow init
 criar uma feature :
 git flow feature start nomeDaFeature
 
+finalizar uma feature e mesclar com develop:
+
 
 
 _______________________
