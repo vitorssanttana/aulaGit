@@ -115,6 +115,11 @@ git flow feature start nomeDaFeature
 finalizar uma feature e mesclar com develop:
 git flow feature finish nomeDaFeature
 
+iniciar uma release:
+git flow release start 1.0.0
+
+finalizar uma release:
+git flow release finish 1.0.0
 
 
 _______________________
