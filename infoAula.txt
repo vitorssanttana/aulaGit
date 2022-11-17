@@ -121,8 +121,8 @@ git flow release start 1.0.0
 finalizar uma release:
 git flow release finish 1.0.0
 
-_______________________
-adicionando teste aqui
+configurar o git flow :
+git config --global core.editor "code --wait"
 
 
 
