@@ -120,7 +120,6 @@ git flow release start 1.0.0
 
 finalizar uma release:
 git flow release finish 1.0.0
-adidionando umas informações aleatórias aqui
 
 _______________________
 
