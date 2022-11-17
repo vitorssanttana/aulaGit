@@ -115,7 +115,7 @@ git flow feature start nomeDaFeature
 finalizar uma feature e mesclar com develop:
 git flow feature finish nomeDaFeature
 
-
+adidionando umas informações aleatórias aqui
 
 _______________________
 
